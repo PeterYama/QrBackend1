@@ -1,0 +1,30 @@
+{
+  "name": "moleculer",
+  "version": "1.0.0",
+  "description": "My Moleculer microservices project",
+  "scripts": {
+    "dev": "moleculer-runner --repl --hot services",
+    "debug": "node --nolazy --inspect-brk",
+    "cli": "moleculer connect ",
+    "lint": "eslint services",
+    "start": "moleculer-runner --repl --hot services"
+  },
+  "keywords": [
+    "microservices",
+    "moleculer"
+  ],
+  "author": "",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "moleculer-repl": "^0.5.7"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "moleculer": "^0.13.9",
+    "moleculer-web": "^0.8.5",
+    "mongoose": "^5.8.10"
+  },
+  "engines": {
+    "node": ">= 8.x.x"
+  }
+}
