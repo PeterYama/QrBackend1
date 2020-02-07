@@ -59,7 +59,7 @@ module.exports = {
 					email:ctx.params.email,
 					password: ctx.params.password,
 				},function(err,account){
-					account === null ? reject({Account:"false"}) : resolve({Account:"true"})
+					account === null ? resolve({Account:"false"}) : resolve({Account:"true"})
 				})
 			})	
 		},
